@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RPG</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <div class="container-fluid bg-image-1">
+
+        <div class="row d-flex align-items-center justify-content-center rowCss text-center">
+
+            <div class="col-12 col-md-6">
+                <p class="p-rpg lead p-5">Entre as sombras, surgia uma fera maior que o sol, mais escura que o abismo, e
+                    assombrava os moradores de NorthVill. Precisamos de você, Heroi.
+                </p>
+            </div>
+
+            <div class="col-12 col-md-6">
+
+                <h2 class="text-light display-5">Nome do herói:</h2>
+                <div class="border rounded p-1 d-flex align-items-center justify-content-center">
+                    <p class="text-light lead p-2 mt-2" id="nomeHeroi">-</p>
+                </div>
+
+                <div class="bg-light p-2 my-3 rounded">
+                    <h2 class="subtitleNome display-5 ">Classe: <span class="subtitleNome display-5" id="classe"></span>
+                    </h2>
+                </div>
+
+                <p class="text-light">Força: <span class="text-light" id="forca"></span></p>
+                <p class="text-light">Agilidade: <span class="text-light" id="agil"></span></p>
+                <p class="text-light">Precisão: <span class="text-light" id="precisao"></span></p>
+                <p class="text-light">Velocidade: <span class="text-light" id="velocidade"></span></p>
+                <p class="text-light">Inteligencia: <span class="text-light" id="inteligencia"></span></p>
+                <p class="text-light">Carisma: <span class="text-light" id="carisma"></span></p>
+                <p class="text-light">Astúcia: <span class="text-light" id="astu"></span></p>
+
+
+
+                <button class="py-2 px-4 rounded btn btn-outline-light my-3" id="btn">Gerar Herói</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="./js/heroi.js"></script>
+</body>
+
+</html>
